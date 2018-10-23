@@ -1,0 +1,81 @@
+
+html, body, div, h1, h2, h3, h4, h5, h6, article, aside, footer, header, hgroup, nav, section {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+body {
+    font-size: 160%;
+    margin: 0;
+}
+body {
+    background: white;
+    color: #0b0c0c;
+    line-height: 1.5;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 100%;
+    margin: auto;
+}
+#global-header {
+    background-color: #000000;
+    width: 100%;
+}
+html, body, button, input, table, td, th {
+    font-family: "nta", Arial, sans-serif;
+}
+html {
+    font-size: 62.5%;
+    overflow-y: scroll;
+    -webkit-tap-highlight-color: transparent;
+}
+.logo{
+    width: 220px;
+    align-content: center;
+}
+
+.global-header .header-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#global-header .header-wrapper {
+    background-color: #0b0c0c;
+    max-width: 990px;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.content-links{
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    max-width: 30%;
+    float: right;
+    margin: 5px 0 0;
+}
+.add-on{
+    border:1px solid #000000;
+}
+.floated-inner-block{
+    align-self: auto;
+}
+
+.ul{
+    font-size: 16px;
+    text-decoration: underline;
+    color: white;
+}
+.pop{
+    padding: 20px;
+}
+
+.head  {
+    text-align: center;
+    background-color: #005ea5;
+    color: #fff;
+}
